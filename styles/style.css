@@ -1,0 +1,165 @@
+body {
+    background-color: peachpuff;
+    margin: 0 auto;
+    height: 100%;
+    
+    
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+    display: block;
+    margin: 0 auto;
+    border-bottom: black 3px solid;
+    
+   
+
+    
+}
+
+.name-tab {
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    background-color: rgba(255, 136, 0, 0.486);
+   padding: 25px;
+   
+}
+ 
+.name {
+    text-align: center;
+    font-size: 40px;
+    font-family: Lucida;
+    margin: 0, auto;
+}
+
+ul.bordernav {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 136, 0, 0.486);
+    position: relative;
+    float: right;
+    margin-top: 15px;
+    border-right: black;
+    margin-right: 61.5px;
+
+}
+
+li {
+    float: right;
+}
+
+
+li a.navlist {
+    display: block;
+    color: lightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a.navlist:hover {
+    background-color: rgb(255, 75, 75);
+}
+
+.bordernav{
+    border: 2px solid pink;
+    border-style: dashed;
+    box-shadow: 0 0 5px black;
+}
+
+main {
+    
+    width: 650px;
+    height: 400px;
+    background-color:rgba(177, 156, 235, 0.473);
+    box-shadow: 0 0 20px black;
+    float: left;
+    margin-right: 61.5px;
+    margin-top: 20px;
+    border-radius: 5%;
+
+    
+}
+
+section {
+    width: 270px;
+    height: 270px;
+    background-color:rgba(177, 156, 235, 0.473);
+    float: left;
+    box-shadow: 0 0 20px black;
+    margin-top: 20px;
+    border-radius: 5%;
+    
+    
+}
+
+.center {
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+    width: 1030px;
+}
+
+.mainimg {
+    margin-top: 4px;
+    width: 30%;
+    height: 30%;
+    float: left;
+    border: 3px solid purple;
+    border-radius: 10%;
+}
+
+p {
+    font-size: 25px;
+    color: black;
+
+}
+
+ul.icons {
+    background-color: rgba(46, 25, 104, 0.356)
+}
+
+.icondisplay {
+    
+    float: right;
+    background-color: orange;
+    border-radius: 10%;
+    list-style-type: none;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid black;
+
+}
+  
+.icondisplay2 {
+    width: 128px;
+    height: 128px;
+    float: left;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: orange;
+    border-radius: 10%;
+    border: 1px solid black;
+    
+    
+}
+
+.iconsize2 {
+    width: 128px;
+    vertical-align: middle;
+    height: 128px;
+
+   }
+
+    
+    
